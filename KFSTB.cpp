@@ -53,6 +53,7 @@ int frq[10001];
 vector<int>topol;
 void topo(){
 	queue<int>q;
+	// create queue
 	for(int i=0;i<=n;i++){
 		if(!frq[i]){
 			q.push(i);
