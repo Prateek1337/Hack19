@@ -12,6 +12,7 @@ struct node bfs(struct node se){
 	queue<struct node>q;
 	q.push(se);
 	//cout<<lv.r<<lv.c<<lv.dist<<endl;
+	// pairs added
 	while(!q.empty()){
 		struct node s=q.front();
 		lv=s;
